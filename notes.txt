@@ -1,0 +1,8 @@
+how to do stuff:
+
+1. modify what i want to change in keyboards/massdrop/alt/mine
+2. build firmware: 
+    make massdrop/alt:mine
+3. flash to keyboard:
+    sudo ./mdloader_linux -f --download massdrop_alt_mine.bin --restart
+    this gives me 60 sec to put kb into bootloader mode (fn + b)
